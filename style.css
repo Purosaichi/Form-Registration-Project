@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Story+Script&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+header{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+body{
+    min-height: 100vh;
+    background-color:rgb(106, 121, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+.label-nama{
+    font-size: 20px;
+}
+.label-email{
+    font-size: 20px;
+}
+.label-number{
+    font-size: 20px;
+}
+.input-number{
+    width: 180%;
+}
+.label-address{
+    font-size: 20px;
+}
+.label-date{
+    font-size: 20px;
+}
+.input-date{
+    width: 187%;
+}
+.label-gender{
+    font-size: 15px;
+}
+.input-gender{
+    width: 20px;
+    height: 20px;
+}
+.input-address{
+    width: 550px;
+}
+.country{
+    width: 250px;
+    height: 52px;
+}
+.input-city{
+    width: 287px;
+}
+.input-region{
+    width: 250px;
+}
+.input-code{
+    width: 285px;
+}
+.container{
+    position:relative;
+    max-width: 600px;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    height: 1050px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    white-space: nowrap;
+    scale: 1.0;
+}
+.container .form{
+    margin-top: 30px;
+}
+.form .inp-box{
+    width: 200%;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.form button{
+    color: rgb(255, 255, 255);
+    background: #7682f1;
+    height: 50px;
+    width: 550px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: transform 0.2s, background-colour grey;
+}
+.form button:active{
+    transform: scale(0.95);
+}
+input::placeholder{
+    font-size: 15px;
+}
+input{
+    height: 50px;
+    width: 25%;
+}
